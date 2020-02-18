@@ -9,6 +9,10 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: "Lobster", cursive;
+}
+
 header {
     h2 {
         color: $color-pale;
@@ -16,7 +20,7 @@ header {
 }
 
 h2 {
-    color: #3046C5;
+    color: $color-primary;
 }
 
 header h2 {
