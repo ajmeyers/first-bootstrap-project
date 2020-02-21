@@ -1,4 +1,4 @@
-// JQuery for Carousel Buttons
+// jQuery for Carousel Buttons
 $(function () {
     $(".carousel").carousel({ interval: 2000 });
     $("#carouselButton").click(function () {
@@ -13,3 +13,16 @@ $(function () {
         }
     });
 });
+
+// jQuery for activating Modals for Reserve and Login Buttons
+$(function () {
+    $('#reserveButton').click(function () {
+        $('#reserveModal').modal('show');
+    })
+});
+$(function () {
+    $('#loginButton').click(function () {
+        $('#loginModal').modal('show');
+    })
+});
+
